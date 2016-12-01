@@ -1,0 +1,104 @@
+.ki-forgot
+{
+	float:left;
+	text-decoration:none;
+	color:#000000;
+	font-size:13px;
+	padding-left:9px;
+	padding-top:11px;
+}
+.ki-forgot:hover
+{
+	text-decoration:underline;
+}
+.sidebar-ticket
+{
+	float:left;
+	width:13%;
+	padding:5px 0 5px 0;
+	height:345px;
+	border-right:1px solid #aaa;
+}
+.sidebar-ticket ul
+{
+	list-style:none;
+}
+.sidebar-ticket a
+{
+	margin-left:0;
+	background:none;
+	color:black;
+	border-width: 1px;
+  	border-style: solid;
+	cursor: pointer;
+  	text-align: center !important;
+  	white-space: nowrap;
+	text-decoration: none;
+  	font-size: 12px;
+	padding: 4px 15px 4px 15px;
+}
+.sidebar-ticket a:active,
+.sidebar-ticket a:hover
+{
+	background:#666666;
+	color:#FFFFFF;
+}
+.table-ticket
+{
+	float:left;
+	padding-left:30px;
+	width:80%;
+}
+.super-emp
+{
+	float: right;
+  line-height: 1.8em;
+  margin: 3px 0 0 5px;
+  font-size: 13px;
+}
+.login-btn-a{border:1px solid rgba(0,0,0,0.25);margin-right:13px;
+cursor:pointer;
+float:left;
+font-size:13px;
+padding:5px 10px 5px 10px;
+color:#333333;
+text-decoration:none;
+margin-left:19px;
+}
+.login-btn-a:hover{background:#666666;color:#ffffff}
+
+.menu #config
+{
+	position:relative;
+	height:27px;
+}
+.menu #config ul{display:none;position:absolute;top:27px;left:0;background:#ffffff;border:1px solid #000;padding:0;width:140px;margin-left:0}
+.menu #config ul li{border:none;padding:0;line-height:20px;width:140px}
+.menu #config ul li{background:none}
+.menu #config ul li a{line-height:25px;text-align:left;padding-left:5px}
+.menu #config ul li+li{border-top:1px dashed rgba(34,34,34,0.8);}
+.menu #config ul li a:hover{background:rgba(34,34,34,0.5);color:#ffffff}
+.menu #config:hover ul{display:block}
+.menu #config:hover ul ul{display:none}
+.menu #config a, .menu #config a:hover {
+  display: block;
+  text-decoration: none;
+  height:27px;
+}
+
+.menu #ticket
+{
+	position:relative;
+	background:url(../image/right_arrow.png) no-repeat right 8px !important;
+}
+
+.menu #ticket ul
+{
+	display:none;position:absolute;left:140px;background:#ffffff;border:1px solid #000;padding:0;top:0
+}
+.menu #ticket ul li{border:none;padding:0;line-height:20px;margin-right:0}
+.menu #ticket ul li{background:none !important}
+.menu #ticket ul li a{line-height:25px;text-indent:5px}
+.menu #ticket ul li+li{border-top:1px dashed rgba(34,34,34,0.8)}
+.menu #ticket ul li a:hover{background:rgba(34,34,34,0.5);color:#ffffff}
+.menu #ticket:hover ul{display:block !important}
